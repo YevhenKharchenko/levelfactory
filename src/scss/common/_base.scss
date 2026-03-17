@@ -46,7 +46,14 @@ html {
   scroll-margin-top: 40px;
 
   @include media(desktop) {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 110px;
+  }
+}
+
+.section-title-container {
+  padding: 0;
+
+  @include media(desktop) {
   }
 }
 
@@ -68,10 +75,13 @@ html {
   font-size: 20px;
   line-height: 1.5;
   text-transform: uppercase;
-  text-align: center;
+  text-align: right;
   color: #ecf9fb;
+  max-width: max-content;
 
   @include media(desktop) {
     font-size: 24px;
+    width: 100%;
+    max-width: 402px;
   }
 }

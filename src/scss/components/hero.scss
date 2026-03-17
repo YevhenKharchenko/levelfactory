@@ -120,6 +120,12 @@
   margin-left: auto;
   margin-right: auto;
 
+  &:hover,
+  &:focus,
+  &:active {
+    background: linear-gradient(180deg, #ee6538 0%, #7e3218 100%);
+  }
+
   @include media(desktop) {
     margin: 0;
   }

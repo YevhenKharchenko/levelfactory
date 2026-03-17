@@ -1,24 +1,20 @@
 .faq-section {
-  background: #212d44;
+  background: #acbad3;
 
   @include media(desktop) {
   }
 }
 
 .faq-title {
-  color: #dbe2f0;
-
   @include media(desktop) {
   }
 }
 
 .faq-bg-wrapper {
-  padding-top: 40px;
-  padding-bottom: 48px;
+  padding-bottom: 56px;
 
   @include media(desktop) {
-    padding-top: 48px;
-    padding-bottom: 56px;
+    padding-bottom: 72px;
   }
 }
 
@@ -50,7 +46,7 @@
 }
 
 .faq-item-question-wrapper {
-  border-bottom: 1px solid #8091b2;
+  border-bottom: 1px solid #667390;
   padding: 8px 0px;
 
   @include media(desktop) {
@@ -93,23 +89,23 @@
 
 .faq-btn-text {
   font-family: 'Mulish', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 1.5;
-  color: #dbe2f0;
+  color: #131422;
   text-align: left;
 
   @include media(desktop) {
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
 .faq-bottom-text {
   font-family: 'Mulish', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.5;
-  color: #dbe2f0;
+  color: #131422;
 
   @include media(desktop) {
     font-size: 16px;

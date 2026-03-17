@@ -1,13 +1,12 @@
 .uniqueness-section {
+  background: #acbad3;
 }
 
 .uniqueness-bg-wrapper {
-  padding-top: 40px;
-  padding-bottom: 48px;
+  padding-bottom: 56px;
 
   @include media(desktop) {
-    padding-top: 48px;
-    padding-bottom: 56px;
+    padding-bottom: 72px;
   }
 }
 
@@ -26,19 +25,31 @@
 
 .uniqueness-text {
   font-family: 'Mulish', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
-  color: #191c2e;
-  margin-bottom: 20px;
+  color: #131422;
+  margin-bottom: 32px;
 
   @include media(desktop) {
-    font-size: 20px;
-    max-width: 894px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+    font-size: 24px;
+    margin-bottom: 32px;
+  }
+}
+
+.uniqueness-list-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.5;
+  text-align: center;
+  color: #667390;
+  margin-bottom: 32px;
+
+  @include media(desktop) {
+    font-size: 40px;
+    margin-bottom: 48px;
   }
 }
 
@@ -60,27 +71,22 @@
 }
 
 .uniqueness-list-item {
-  background: #212d44;
-  border-radius: 16px;
-  padding: 24px 16px;
+  background: #ecf9fb;
+  border-radius: 40px;
+  padding: 16px 24px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 
   @include media(desktop) {
     padding: 24px;
-    flex-direction: column;
-    gap: 0;
-    width: 100%;
-    max-width: 303px;
+    max-width: 282px;
   }
 }
 
 .uniqueness-img {
-  min-width: 84px;
-
   @include media(desktop) {
-    min-width: 164px;
   }
 }
 
@@ -90,7 +96,7 @@
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
-  color: #dbe2f0;
+  color: #131422;
 
   @include media(desktop) {
     font-size: 16px;
