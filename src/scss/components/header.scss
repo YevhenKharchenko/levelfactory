@@ -1,5 +1,5 @@
 .header {
-  background: #212d44;
+  background: #667390;
   padding: 12px 0;
   position: fixed;
   width: 100%;
@@ -7,6 +7,7 @@
   z-index: 10;
 
   @include media(desktop) {
+    background: transparent;
     padding: 16px 0;
   }
 }
@@ -25,7 +26,11 @@
   align-items: center;
 
   @include media(desktop) {
+    background: #667390;
+    border-radius: 999px;
+    padding: 24px 48px;
     justify-content: center;
+    width: 100%;
   }
 }
 
@@ -34,8 +39,9 @@
 
   @include media(desktop) {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: stretch;
+    gap: 48px;
     width: 100%;
   }
 }
@@ -45,6 +51,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: max-content;
 }
 
 .nav-list-link {
@@ -55,9 +62,9 @@
     align-items: center;
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
-    color: #dbe2f0;
+    color: #ecf9fb;
     opacity: 0.8;
     width: 100%;
     max-width: max-content;
@@ -74,7 +81,7 @@
       bottom: 0;
       width: 100%;
       height: 1px;
-      background-color: #f08b40;
+      background-color: #da5a2f;
       transform: scaleX(0);
       transform-origin: center;
       transition:
